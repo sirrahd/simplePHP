@@ -2,9 +2,9 @@
 
 class Command
 {
-    var $name = '';
-    var $function = '';
-    var $parameters = array();
+    private $name = '';
+    private $function = '';
+    private $parameters = array();
 
     function Command($controllerName, $functionName, $parameters)
     {

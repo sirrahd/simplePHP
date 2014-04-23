@@ -4,7 +4,7 @@ include('lib/controller.php');
 
 class CommandDispatcher
 {
-    var $command;
+    private $command;
 
     function CommandDispatcher(&$command)
     {
