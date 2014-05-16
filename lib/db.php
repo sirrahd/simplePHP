@@ -15,9 +15,9 @@ class DB
     {
         global $dbhost, $dbuser, $dbpass, $dbname;
 
-        if (!$DB::dbConnection)
+        if (!DB::$dbConnection)
         {
-           $DB::dbConnection = new PDO(
+           DB::$dbConnection = new PDO(
                 "mysql:host=$dbhost;dbname=$dbname;charset=utf8",
                 "$dbuser",
                 "$dbpass",

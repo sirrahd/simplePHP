@@ -2,7 +2,7 @@
 
 class Controller
 {
-    private var $command;
+    private $command;
 
     function Controller(&$command)
     {
