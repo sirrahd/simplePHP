@@ -1,7 +1,5 @@
 <?php
 
-include('lib/controller.php');
-
 class CommandDispatcher
 {
     private $command;

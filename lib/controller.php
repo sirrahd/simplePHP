@@ -1,4 +1,5 @@
 <?php
+include_once('lib/io.php');
 
 class Controller
 {
