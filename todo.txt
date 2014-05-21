@@ -1,8 +1,0 @@
-header and footer template views
-DB tools
-DB create
-sanitize user input
-user model
-signup
-signin
-secure page
